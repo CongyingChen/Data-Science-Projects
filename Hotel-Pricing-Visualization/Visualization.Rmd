@@ -1,0 +1,116 @@
+---
+title: "Hotel Pricing"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(reshape2)
+library(plotly)
+```
+
+## Hotel Pricing Visualization
+
+```{r}
+df = read.csv("/Users/charlenechen/Desktop/Projects/Hotel\ Pricing\ Project/hotel_pricing.csv")
+```
+
+```{r}
+head(df)
+summary(df)
+str(df)
+```
+
+```{r}
+#p = ggplot(df,aes(x=date,y=price,colour=expedia_hotel_id,group=expedia_hotel_id)) + geom_line()
+
+```
+
+```{r}
+p <- plot_ly(data = df, x = ~date, y = ~price, color = ~factor(expedia_hotel_id),showlegend = FALSE,type)
+p
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+import plotly.plotly as py
+import plotly.graph_objs as go
+
+import pandas as pd
+from datetime import datetime
+
+df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv')
+
+data = [go.Scatter(x=df.Date, y=df['AAPL.High'])]
+
+py.iplot(data, filename = 'time-series-simple'
+         
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+```{r}
+
+
+
+```
