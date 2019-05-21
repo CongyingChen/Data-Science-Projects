@@ -3,7 +3,7 @@
 ## Charlene Chen
 
 
-![](https://github.com/CongyingChen/Data-Science-Projects/Hotel Pricing Visualizationl.gif) 
+![](https://github.com/CongyingChen/Data-Science-Projects/Hotel_Pricing_Visualizationl.gif) 
 
 
 
