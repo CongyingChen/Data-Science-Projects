@@ -8,6 +8,6 @@
 
 
 ## Data Sources: ##
-Price scrapper from Expedia
+Price scraper from Expedia
   
 
